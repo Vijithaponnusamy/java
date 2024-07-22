@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+    System.out.println("Perimeter of Square:"+4*a);
+        int l =sc.nextInt();
+        int w =sc.nextInt();
+        System.out.println("Perimeter of Rectangle:"+2*(l+w));
+        double r=sc.nextDouble();
+        System.out.println("Perimeter of Circle:"+(Math.floor((2*(Math.PI)*r)*100.0)/100.0));
+        int s1 =sc.nextInt();
+        int s2 = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println("Perimeter of Triangle:"+(s1+b+s2));
+    }
+}
